@@ -1,0 +1,23 @@
+@import "../../../scss/index.scss";
+
+.logos{
+
+    border-top: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+    background-color: #fff;
+
+    .ant-row{
+
+        margin-left: 250px;
+
+        .ant-col{
+
+            img{
+                width: 180px;
+            }
+
+        }
+
+    }
+
+}

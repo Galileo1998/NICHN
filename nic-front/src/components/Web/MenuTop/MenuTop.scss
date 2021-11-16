@@ -1,0 +1,42 @@
+@import '../../../scss/index.scss';
+
+.menu-top-web{
+    position: sticky;
+    top: 0;
+    background-color: $background-dark-web;
+    border: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 15px solid $background-dark-web;
+
+    &__desplegable{
+        color:#fff;
+        font-weight: bold;
+    }
+
+    @media (min-width: $media-breakpoint-up-lg){
+        width: auto;
+    }
+
+    li{
+        border: 0 !important;
+
+        a{
+            color: #fff !important;
+            font-weight: bold;
+
+            &:hover{
+                color: $primary-color !important;
+            }
+        }
+    }
+
+    &__logo{
+        padding: 10px;
+
+        img{
+            margin-top: 8px;
+            width: 60%;
+        }
+    }
+}
